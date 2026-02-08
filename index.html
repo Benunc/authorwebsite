@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ben Meredith — Author</title>
+  <meta name="description" content="Ben Meredith writes books on support, work, and life. Sustainable Support is available now; more books to come.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Ben Meredith</h1>
+    <p class="tagline">Author</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="BenHeadshot2.jpg" alt="Ben Meredith" width="240" height="240" class="headshot">
+      <div class="hero-text">
+        <p class="intro">I write books that help people—at work, at home, and in the things that matter most.</p>
+        <p>My first book, <strong>Sustainable Support</strong>, is for anyone building or leading support teams. I’m also working on ideas in parenting, work, and faith—so I’m not staying in one lane.</p>
+      </div>
+    </section>
+
+    <section class="book">
+      <h2>Books</h2>
+      <article class="book-card">
+        <h3>Sustainable Support</h3>
+        <p>Practical guidance for building and sustaining healthy support teams and organizations.</p>
+        <a href="https://benlikes.us/ssbook" class="btn" rel="noopener noreferrer">Get the book →</a>
+      </article>
+      <p class="more-coming">More books on the way—parenting, work, and devotional writing.</p>
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>I’ve spent years in WordPress, support operations, and technology leadership. I speak at events like Support Driven Summit and care about sustainable ways to help people and teams. Writing is how I share what I’ve learned and what I’m still figuring out.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Reach out for speaking, collaboration, or just to say hello:</p>
+      <p class="email-display" aria-label="Email address">ben <span aria-hidden="true">[at]</span> benandjacq <span aria-hidden="true">[dot]</span> com</p>
+      <a href="#" class="contact-link" id="contact-link" data-u="ben" data-d="benandjacq.com">Send an email</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ben Meredith</p>
+  </footer>
+
+  <script>
+    (function () {
+      var link = document.getElementById('contact-link');
+      if (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          var u = link.getAttribute('data-u');
+          var d = link.getAttribute('data-d');
+          if (u && d) {
+            window.location.href = 'mailto:' + u + '\u0040' + d;
+          }
+        });
+      }
+      var yearEl = document.getElementById('year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
