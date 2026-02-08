@@ -5,15 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ben Meredith — Author</title>
   <meta name="description" content="Ben Meredith writes books on support, work, and life. Sustainable Support is available now; more books to come.">
+  <link rel="canonical" href="https://authorbenmeredith.com/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://authorbenmeredith.com/">
+  <meta property="og:title" content="Ben Meredith — Author">
+  <meta property="og:description" content="Ben Meredith writes books on support, work, and life. Sustainable Support is available now; more books to come.">
+  <meta property="og:image" content="https://authorbenmeredith.com/socialshare.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ben Meredith — Author">
+  <meta name="twitter:description" content="Ben Meredith writes books on support, work, and life. Sustainable Support is available now; more books to come.">
+  <meta name="twitter:image" content="https://authorbenmeredith.com/socialshare.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://authorbenmeredith.com/#author",
+        "name": "Ben Meredith",
+        "url": "https://authorbenmeredith.com/",
+        "image": "https://authorbenmeredith.com/BenHeadshot2.jpg",
+        "description": "Author of Sustainable Support and other books on support, work, and life.",
+        "jobTitle": "Author"
+      },
+      {
+        "@type": "Book",
+        "name": "Sustainable Support",
+        "url": "https://benlikes.us/ssbook",
+        "description": "Practical guidance for building and sustaining healthy support teams and organizations.",
+        "author": { "@id": "https://authorbenmeredith.com/#author" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="site-header">
     <h1>Ben Meredith</h1>
     <p class="tagline">Author</p>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="hero">
       <img src="BenHeadshot2.jpg" alt="Ben Meredith" width="240" height="240" class="headshot">
       <div class="hero-text">
@@ -27,21 +64,22 @@
       <article class="book-card">
         <h3>Sustainable Support</h3>
         <p>Practical guidance for building and sustaining healthy support teams and organizations.</p>
-        <a href="https://benlikes.us/ssbook" class="btn" rel="noopener noreferrer">Get the book →</a>
+        <a href="https://benlikes.us/ssbook" class="btn" rel="noopener noreferrer" target="_blank">Get the book <span aria-hidden="true">→</span></a>
       </article>
-      <p class="more-coming">More books on the way—parenting, work, and devotional writing.</p>
+      <p class="more-coming">I'll be writing more. Stay tuned!</p>
     </section>
 
     <section class="about">
       <h2>About</h2>
       <p>I’ve spent years in WordPress, support operations, and technology leadership. I speak at events like Support Driven Summit and care about sustainable ways to help people and teams. Writing is how I share what I’ve learned and what I’m still figuring out.</p>
+      <p>I'm a husband of one and a father of three boys. I live in rural South Carolina and you can usually find me singing, teaching, or cheering on the Tar Heels.</p>
     </section>
 
     <section class="contact">
       <h2>Contact</h2>
       <p>Reach out for speaking, collaboration, or just to say hello:</p>
       <p class="email-display" aria-label="Email address">ben <span aria-hidden="true">[at]</span> benandjacq <span aria-hidden="true">[dot]</span> com</p>
-      <a href="#" class="contact-link" id="contact-link" data-u="ben" data-d="benandjacq.com">Send an email</a>
+      <a href="#" class="contact-link" id="contact-link" data-u="ben" data-d="benandjacq.com" aria-label="Send email to Ben Meredith">Send an email</a>
     </section>
   </main>
 

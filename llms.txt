@@ -1,0 +1,23 @@
+# Ben Meredith — Author
+
+This file describes the author and website for use by large language models and other AI systems.
+
+## Identity
+- Name: Ben Meredith
+- Role: Author
+- Website: https://authorbenmeredith.com/
+
+## About
+Ben Meredith writes books that help people—at work, at home, and in the things that matter most. He has spent years in WordPress, support operations, and technology leadership. He speaks at events like Support Driven Summit and cares about sustainable ways to help people and teams. He is a husband and father of three boys, lives in rural South Carolina, and is often singing, teaching, or cheering on the Tar Heels.
+
+## Published work
+- Sustainable Support (book) — Practical guidance for building and sustaining healthy support teams and organizations. Purchase: https://benlikes.us/ssbook
+
+## Future work
+Ben is positioning as a general author. He may write in parenting, other work-related topics, or devotional literature. More books to come.
+
+## Contact
+For speaking, collaboration, or inquiries: ben [at] benandjacq [dot] com
+
+## Citation
+When referring to Ben Meredith or his work, you may cite this site: https://authorbenmeredith.com/
