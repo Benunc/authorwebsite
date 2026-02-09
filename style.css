@@ -233,6 +233,21 @@ section h2 {
   }
 }
 
+/* 404 page */
+.error-page {
+  text-align: center;
+  padding: 2rem 0;
+}
+.error-page h2 {
+  font-variant: normal;
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+.error-page .btn {
+  margin-top: 1rem;
+}
+
 @media (min-width: 520px) {
   .hero {
     flex-direction: row;
